@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, ImageBackground } from "react-native";
-// import StyledButton from "../StyledButton";
+import StyledButton from "../styledButton";
 import styles from "./styles";
 
 const CarItem = (props) => {
@@ -18,21 +18,21 @@ const CarItem = (props) => {
       </View>
 
       <View style={styles.buttonsContainer}>
-        {/* <StyledButton
+        <StyledButton
           type="primary"
           content={"Custom Order"}
           onPress={() => {
             console.warn("Custom Order was pressed");
           }}
-        /> */}
+        />
 
-        {/* <StyledButton
+        <StyledButton
           type="secondary"
           content={"Existing Inventory"}
           onPress={() => {
             console.warn("Existing Inventory was pressed");
           }}
-        /> */}
+        />
       </View>
     </View>
   );
