@@ -4,7 +4,7 @@
 
 ## Description
 
-This application is inspired by the Tesla web app
+This application is inspired by the Tesla web app.
 
 Setup:
 
